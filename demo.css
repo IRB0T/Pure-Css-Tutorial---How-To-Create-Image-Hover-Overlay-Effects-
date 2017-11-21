@@ -1,0 +1,181 @@
+body{
+	margin:0px;
+	padding:0px;
+	background:url('back.jpeg');
+	background-size:cover;
+}
+ul{
+	margin:250px auto 0;
+	padding:0px;
+	width:1200px;
+	display:flex;
+}
+
+ul li{
+	list-style:none;
+}
+
+ul li .Box{
+	width:400px;
+	height:285px;
+	box-sizing:border-box;
+	padding:0 10px;
+}
+
+ul li .Box figure{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+ul li .Box figure:before,
+ul li .Box figure:after{
+	content:'';
+	position:absolute;
+	top:0;
+	height:100%;
+	width:50%;
+	background:#262626;
+	transition:0.7s;
+}
+
+ul li .Box figure:Before{
+	left:-50%;
+}
+ul li .Box:hover figure:Before{
+	left:0%;
+}
+
+ul li .Box figure:after{
+	right:-50%;
+}
+ul li .Box:hover figure:after{
+	right:0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul li .Box figure img{
+	width:100%;
+	height:100%;
+}
+
+ul li .Box figure figcaption{
+	position:absolute;
+	top:20px;
+	right:20px;
+	left:20px;
+	bottom:20px;
+	background:#fff;
+	text-align:center;
+	padding:20px;
+	opacity:0;
+	transition:0.7s;
+	transition-delay:0.7s;
+	transform:translateY(20px);
+	z-index:1;
+}
+ul li .Box:hover figure figcaption{
+	opacity:1;
+	transform:translateY(0px);
+}
+
+ul li .Box figure figcaption h1{
+	margin:0px;
+	padding:0px;
+	font-size:22px;
+	color:red;
+}
+
+ul li .Box figure figcaption p{
+	margin:10px 0 0;
+	padding:0px;
+}
+
+ul li .Box figure figcaption a{
+	display:inline-block;
+	padding:10px 20px;
+	background:#ff1922;
+	color:#fff;
+	margin-top:20px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
